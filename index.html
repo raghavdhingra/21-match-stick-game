@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bluestacks</title>
+    <link href="main.css" rel="stylesheet" />
+  </head>
+  <body>
+    Number of Match Sticks Left:
+    <span id="match-sticks"></span>
+    <div>
+      <input type="number" id="input-number" placeholder="Enter a number" />
+      <button onclick="selectMatchStick()">Select Match Sticks</button>
+    </div>
+    <div>
+      <button onclick="restartGame()">Restart Game</button>
+    </div>
+    <br />
+    <div class="history-grid">
+      <div>
+        <div>Computer Moves:</div>
+        <div id="computer-history"></div>
+      </div>
+      <div>
+        <div>Human Moves:</div>
+        <div id="human-history"></div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
